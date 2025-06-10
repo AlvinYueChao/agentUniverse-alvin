@@ -174,3 +174,5 @@ __pycache__/
 # vscode
 .vscode/launch.json
 .vscode/
+
+examples/sample_standard_app/config/custom_key.toml
