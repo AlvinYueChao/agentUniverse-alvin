@@ -22,8 +22,9 @@ profile:
     temperature: 0.1
 action:
   tool:
-    - 'insurance_info_tool'
-    - 'insurance_search_context_tool'
+#    - 'insurance_info_tool'
+    - 'kuake_search_tool'
+#    - 'insurance_search_context_tool'
 metadata:
   type: 'AGENT'
   module: 'demo_startup_app_with_single_agent_and_actions.intelligence.agentic.agent.agent_instance.insurance_agent'
