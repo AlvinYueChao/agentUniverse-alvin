@@ -3,6 +3,7 @@ description: |
   这是一个搜索工具的工具包
 include:
   - 'mock_search_tool'
+  - 'kuake_search_tool'
 metadata:
   type: 'TOOLKIT'
   module: 'agentuniverse.agent.action.toolkit.toolkit'

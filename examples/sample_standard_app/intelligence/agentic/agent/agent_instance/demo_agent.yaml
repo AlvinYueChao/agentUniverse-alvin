@@ -35,7 +35,7 @@ profile:
   #
   # Note: The current configuration uses Way 1, as shown below
   llm_model:
-    name: 'qwen3-32b'
+    name: 'deepseek-reasoner'
 action:
   # Please select the tools, toolkits and knowledge base.
   tool:
@@ -44,7 +44,8 @@ action:
     # e.g. demo_search_tool, to do a real internet search
     # for using demo_search_tool, you need to get either /Google/Bing/search.io search API key
     # and config it into /config/custom_key.toml
-    - 'mock_search_tool'
+#    - 'mock_search_tool'
+    - 'kuake_search_tool'
   toolkit:
     # This toolkit only contains the mock search tool.
     - 'search_toolkit'
