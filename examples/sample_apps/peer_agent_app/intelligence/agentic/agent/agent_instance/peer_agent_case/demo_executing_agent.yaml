@@ -12,7 +12,7 @@ action:
   knowledge:
     - ''
   tool:
-    - 'google_search_tool'
+    - 'kuake_search_tool'
 metadata:
   type: 'AGENT'
   module: 'agentuniverse.agent.template.executing_agent_template'
